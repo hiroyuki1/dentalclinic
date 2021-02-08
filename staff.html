@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Clinic</title>
+    <link rel="stylesheet" href="staff.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head-of-head">
+                <div class="head-logo">
+                    <img src="img/siteTitle.png" alt="Dental Clinic ロゴ">
+                </div>
+                <div class="head-info">
+                <p class="subtitle">"地域に根付いた歯科医院" デンタル クリニック</p>
+                <p class="tel"><i class="fas fa-phone-square"></i> 03-0000-0000</p>
+                <p class="info">予約受付時間 10:00~19:30 <span>日祝 休診</span></p>
+                </div>
+            </div>    
+            <nav class="nav">
+                <button class="button" onclick="location.href='index.html'">
+                    <h3>トップページ</h3>
+                    <p>HOME</p>
+                </button>
+                <button class="button" onclick="location.href='clinic.html'">
+                <h3>医院紹介</h3>
+                <p>CLINIC</p>
+                </button>
+                <button class="button" onclick="location.href='service.html'">
+                <h3>診療案内</h3>
+                <p>SERVICE</p>
+                </button>
+                <button class="button" onclick="location.href='staff.html'">
+                <h3>院長・スタッフ紹介</h3>
+                <p>STAFF</p>
+                </button>
+                <button class="button" onclick="location.href='access.html'">
+                <h3>アクセス</h3>
+                <p>ACCESS</p>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList" >
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="index.html">
+              <span itemprop="name">トップページ</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+      
+        <li　itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+              <span itemprop="name">院長・スタッフ紹介</span>
+          <meta itemprop="position" content="2" />
+        </li>
+    </ol>
+    <main class="main">
+    <section class="staff">
+        <h3>院長・スタッフ紹介</h3>
+            <div class="shokai">
+                <h3>院長紹介</h3>
+                <div class="intyobio">
+                    <div class="intyobio1">
+                        <img src="img/intyo.png" alt="院長写真">
+                        <p id="intyoshokai">院長　南 敬介</p>
+                    </div>
+                    <div class="intyobio2">
+                        <h4 id="ryakureki">院長略歴</h4>
+                        <p>1990年 神奈川県立医科歯科大学 卒業<br>1991年 きたデンタルオフィス 勤務<br>1993年 西野歯科医院 勤務<br>1999年 東山歯科医院 勤務<br>2002年 デンタルクリニック 勤務<br>2008年 デンタルクリニック 院長に就任</p>
+                    </div>
+                    </div>
+                    <h4 id="aisatsu">ご挨拶</h4>
+                    <p>デンタルクリニック・院長の南敬介です。</p>
+                    <p>先代である父から続くこの委員は、2014年で40周年を迎えます。<br>父の代から目標として掲げていたのが、"地域に根付いた歯科医院"であること。<br>約5年前から始めた、小学生以下を対象とした「こどもデンタル教室」や、3ヶ月に一度行われる地域健康デーの無料診断など、少しでも地域に貢献できればと思い、スタッフやたくさんの方々の協力を得て続けることができています。</p>
+                    <p>歯科治療の技術は年々進歩し続けています。<br>ですが、患者さんの中にはそんなことをまったくご存知ない方だって多くいらっしゃると思います。どんな技術や治療法も、来院してお話を聞いていただけないと知ってはもらえません。<br>まずは「来院してもらう」こと。そして「知ってもらう」こと。<br>これが当院のモットーです。</p>
+                    <h3 id="staffshokai">スタッフ紹介</h3>
+                <img id="staff-img"src="img/staff.png" alt="スタッフ写真">
+                <p>
+                    医師　近藤先生<br>衛生士　芹沢先生<br>衛生士　武田先生<br>受付　沖田<br>受付　山崎
+                </p>
+            </div>
+    </section>
+        <section class="contents">
+        <div class="ippan">    
+            <h3>一般歯科</h3>
+            <ul>
+                <li><a href="service.html#mushiba">虫歯治療</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#shishubyo">歯周病治療</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#ireba">入れ歯</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#yobou">予防歯科</a></li>
+            </ul>
+        </div>
+        <div class="shinbi">
+            <h3>審美歯科</h3>
+            <ul>
+                <li><a href="service.html#whitening">ホワイトニング</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#allceramic">オールセラミック</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#ceramicinlay">セラミックインレー</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#pmtc">PMTC</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+        <section class="page">
+            <div class="link">
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="clinic.html">医院紹介</a></li>
+                    <li><a href="service.html">診療案内</a></li>
+                    <li><a href="staff.html">院長・スタッフ紹介</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="address">
+            <h5>デンタル クリニック</h5>
+            <p>東京都新宿区市谷佐内町21-13 TEL:03-0000-0000</p>
+        </section>
+    <footer>
+        <p>Copyright 2012 Dental Clinic CO.,LTD All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

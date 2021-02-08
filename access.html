@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Clinic</title>
+    <link rel="stylesheet" href="access.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head-of-head">
+                <div class="head-logo">
+                    <img src="img/siteTitle.png" alt="Dental Clinic ロゴ">
+                </div>
+                <div class="head-info">
+                <p class="subtitle">"地域に根付いた歯科医院" デンタル クリニック</p>
+                <p class="tel"><i class="fas fa-phone-square"></i> 03-0000-0000</p>
+                <p class="info">予約受付時間 10:00~19:30 <span>日祝 休診</span></p>
+                </div>
+            </div>    
+            <nav class="nav">
+                <button class="button" onclick="location.href='index.html'">
+                    <h3>トップページ</h3>
+                    <p>HOME</p>
+                </button>
+                <button class="button" onclick="location.href='clinic.html'">
+                <h3>医院紹介</h3>
+                <p>CLINIC</p>
+                </button>
+                <button class="button" onclick="location.href='service.html'">
+                <h3>診療案内</h3>
+                <p>SERVICE</p>
+                </button>
+                <button class="button" onclick="location.href='staff.html'">
+                <h3>院長・スタッフ紹介</h3>
+                <p>STAFF</p>
+                </button>
+                <button class="button" onclick="location.href='access.html'">
+                <h3>アクセス</h3>
+                <p>ACCESS</p>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList" >
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="index.html">
+              <span itemprop="name">トップページ</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+      
+        <li　itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+              <span itemprop="name">アクセス</span>
+          <meta itemprop="position" content="2" />
+        </li>
+    </ol>
+    <main class="main">
+    <section class="access">
+        <h3>アクセス</h3>
+            <div class="map">
+                <h3>アクセスマップ</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25922.6617137141!2d139.7181214369914!3d35.69342928019146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c5e412329bb%3A0x7db38e6732953dc!2z44CSMTYyLTA4NDYg5p2x5Lqs6YO95paw5a6_5Yy65biC6LC35bem5YaF55S677yS77yR4oiS77yR77yT!5e0!3m2!1sja!2sjp!4v1612795339269!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="route">
+                <div class="route-img">
+                    <img src="img/hospital.png" alt="病院">
+                </div>
+                <div class="route-info">
+                    <h3>デンタル クリニック</h3>
+                    <p>東京都新宿区市谷左内町21-13</p>
+                    <p>JR総武線・都営地下鉄市ヶ谷駅方面から徒歩7分<br>東京メトロ有楽町線・南北線市ヶ谷駅方面から徒歩5分</p>
+                </div>
+            </div>    
+    </section>
+        <section class="contents">
+        <div class="ippan">    
+            <h3>一般歯科</h3>
+            <ul>
+                <li><a href="service.html#mushiba">虫歯治療</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#shishubyo">歯周病治療</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#ireba">入れ歯</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#yobou">予防歯科</a></li>
+            </ul>
+        </div>
+        <div class="shinbi">
+            <h3>審美歯科</h3>
+            <ul>
+                <li><a href="service.html#whitening">ホワイトニング</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#allceramic">オールセラミック</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#ceramicinlay">セラミックインレー</a></li>
+            </ul>
+            <ul>
+                <li><a href="service.html#pmtc">PMTC</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+        <section class="page">
+            <div class="link">
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="clinic.html">医院紹介</a></li>
+                    <li><a href="service.html">診療案内</a></li>
+                    <li><a href="staff.html">院長・スタッフ紹介</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="address">
+            <h5>デンタル クリニック</h5>
+            <p>東京都新宿区市谷佐内町21-13 TEL:03-0000-0000</p>
+        </section>
+    <footer>
+        <p>Copyright 2012 Dental Clinic CO.,LTD All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

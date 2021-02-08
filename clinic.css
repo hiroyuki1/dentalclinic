@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    background-color: rgb(245, 245, 245)
+    ;
+    }
+  .breadcrumb {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+  
+  .breadcrumb li {
+    display: inline;/*横に並ぶように*/
+    list-style: none;
+    font-weight: normal;/*太字*/
+  }
+  
+  .breadcrumb li:after {/* >を表示*/
+    content: '>';
+    padding: 0 0.2em;
+    color: #555;
+  }
+  
+  .breadcrumb li:last-child:after {
+    content: '';
+  }
+  
+  .breadcrumb li a {
+    color: #52b5ee;/*色*/
+  }
+  
+  .breadcrumb li a:hover {
+    text-decoration: underline;
+  }
+
+header {
+    border-top:8px solid #6CC6C4;
+    margin: 0 auto;
+    text-align: center;
+}
+.head > p {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.head .subtitle {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+.head .tel {
+    font-size: 25px;
+    color:gray;
+    margin: 0;
+    
+}
+.head .info {
+    border:1px solid gray;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-top: 0;
+}
+.info span {
+    color:red;
+}
+nav {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+nav .button {
+    width: 50%;
+    background-color: #6CC6C4;
+    border: 1px solid #6CC6C4;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+nav .button:hover {
+    opacity:0.8;
+}
+nav h3 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 14px;
+}
+nav p {
+    margin-top: 0;
+    color: white;
+    font-size: 10px;
+}
+.clinic {
+    display:block;
+    width:95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.clinic h3 {
+    color: white;
+    background-color: #6cc6c4;
+    border-bottom: 1px solid #6cc6c4;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.concept {
+    margin: 0 auto;
+    margin-left: 0;
+    padding-left: 0;
+    background-color: #fff;
+}
+.concept h3 {
+    font-size: 16px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    border-bottom: 3px solid #6cc6c4;
+    color: black;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 95%;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+.concept h4 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color:#6CC6C4;
+    width: 90%;
+    margin: 0 auto;
+}
+.concept p {
+    font-size: 12px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+.kyushinbi {
+    margin: 0 auto;
+    margin-left: 0;
+    padding-left: 0;
+    background-color: #fff;
+}
+.kyushinbi h3 {
+    font-size: 16px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid #6cc6c4;
+    color: black;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 95%;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+.kyushinbi p {
+    font-size: 13px;
+    margin-left: 2.5%;
+    }
+.kyushinbi p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+table {
+    margin: 10px auto;
+    width: 95%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+tr {
+    text-align: center;
+}
+tr:first-of-type {
+   background-color:rgb(178, 174, 201);
+    font-weight: bold;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:10px;
+}
+.bigfont {
+    font-size: 14px;
+}
+.midfont {
+    font-size: 12px;
+}
+.bold {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.contents {
+    margin-top: 30px;
+}
+.contents ul {
+    padding: 0 2%;
+    margin: 0;
+}
+.contents ul:last-child {
+    margin-bottom: 20px;
+}
+.contents li {
+    padding: 10px 0;
+    align-items: center;
+    align-self: center;
+}
+.contents li:hover a{
+    color:#6CC6C4;
+}
+.ippan {
+    border: 1px solid #6CC6C4;
+    display:block;
+    width:95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ippan h3 {
+    color: white;
+    background-color: #6cc6c4;
+    border-bottom: 1px solid #6cc6c4;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ippan li {
+    border-bottom: 1px solid #6cc6c4;
+
+    font-weight: bold;
+    font-size: 14px;
+    list-style: none;
+    display: block;
+}
+.ippan li:before {
+    content:"♦";
+    color:#6cc6c4;
+    padding-right:5px;
+}
+.ippan a {
+    color: #000;
+    text-decoration: none;
+}
+.shinbi {
+    border: 1px solid #6cc6c4;
+    display:block;
+    width:95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.shinbi h3 {
+    color: white;
+    background-color: #6cc6c4;
+    border-bottom: 1px solid #6cc6c4;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.shinbi li {
+    border-bottom: 1px solid #6cc6c4;
+    font-weight: bold;
+    font-size: 14px;
+    list-style: none;
+}
+.shinbi li:before {
+    content:"♦";
+    color:#6cc6c4;
+    padding-right:5px;
+}
+.shinbi a {
+    color: #000;
+    text-decoration: none;
+}
+.link {
+    border:1px solid #6CC6C4;
+    background-color: #6CC6C4;
+    width: 95%;
+    margin: 0 auto;
+    text-overflow: wrap;
+    border-radius: 5px; 
+}
+.link ul{
+    display: flex;
+    margin: 5px 0 5px 20px;
+    padding: 0;
+    flex-wrap:wrap;    
+}
+.link li {
+    margin:0 20px 0 0;
+    font-size: 12px;
+    list-style:none;
+    color: white;
+}
+.link li:before {
+    content:"○";
+    color: white;
+    padding-right:10px;
+}
+.link a {
+    color:white;
+    text-decoration: none;
+}
+.link a:hover {
+    text-decoration-line: underline;
+}
+.address {
+    text-align: right;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.address h5 {
+    margin: 20px 0 5px;
+    padding: 0;
+    font-size: 12px;
+}
+.address p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    padding-bottom: 0;
+}
+footer p {
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    border-top: 2px solid #6cc6c4;
+    padding-top: 10px;
+    margin-top: 0;
+}
+@media screen and (min-width: 980px) {
+    .breadcrumb {
+        width: 980px;
+        margin: 0 auto;
+    }
+    .head-of-head {
+        display: flex;
+        justify-content: space-between;
+        height:120px;
+        align-items: center;
+        width: 980px;
+        margin: 0 auto;
+    }
+    .head-info {
+        margin-top: 10px;
+    }
+    .head-logo {
+        padding-top: 20px;
+    }
+    nav {
+        width: 980px;
+        margin: 0 auto;
+    }
+    nav .button {
+        width: 20%;
+        border-radius:0;
+    }
+    nav .button:first-child{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    nav .button:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius:5px;
+    }
+    .main {
+        width: 980px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .ippan {
+        margin-left: 0;
+    }
+    .shinbi {
+        margin-left: 0;
+    }
+    .contents {
+        width: 320px;
+        margin-top: 0;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    .link {
+        margin-top: 10px;
+        width: 980px;
+        margin: 0 auto;
+    }
+    .address {
+        display: flex;
+        padding: 15px 0;
+        justify-content: flex-end;
+        width: 980px;
+        margin: 0 auto;
+        
+    }
+    .address h5{
+        padding: 0;
+        margin: 0;
+        margin-right: 5px;
+        font-size: 14px;
+    }
+    .address p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .address p:first-of-type{
+        margin-right: 5px;
+    }
+    footer {
+        width: 980px;
+        margin: 0 auto;
+    }
+}
